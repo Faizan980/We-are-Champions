@@ -1,0 +1,119 @@
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin: 50px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    user-select: none;
+}
+
+h2 {
+    margin: 17px auto;
+    font-size: 25px;
+    user-select: none;
+}
+
+h3 {
+    margin: 28px auto;
+    font-size: 20px;
+    font-weight: 400;
+    user-select: none;
+}
+
+textarea {
+    color: white;
+    background-color: #444059;
+    border: 0;
+    padding: 12px 20px;
+    height: 10em;
+    border-radius: 3px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: 400;
+    resize: none;
+}
+
+button {
+    color: white;
+    background-color: #1a9790;
+    border: 0;
+    height: 2.5em;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #7ef5ef;
+    color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul li {
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    padding: 13px;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 4px rgba(224, 219, 219, 0.2);
+    word-wrap: break-word;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.input-el {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background: #444059;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    margin: 8px 0px;
+    padding: 11px 0px;
+    resize: none;
+    color: #ffff;
+}
+
+.bold-p {
+    margin: 0;
+    font-weight: 700;
+}
+
+#endorsement-list li div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+#endorsement-list li div span:hover {
+    color: blue;
+}
